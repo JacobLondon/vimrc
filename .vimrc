@@ -5,6 +5,8 @@ set shiftwidth=4
 set smarttab
 syntax enable
 set background=dark
+set list
+set listchars=tab:>·,space:·
 
 " NERDTree 
 autocmd vimenter * NERDTree
