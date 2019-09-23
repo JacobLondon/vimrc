@@ -9,3 +9,6 @@
 * [VimAwesome](https://vimawesome.com/)
 * [space-vim-dark](https://github.com/liuchengxu/space-vim-dark)
 * [Example](https://raw.githubusercontent.com/sebbekarlsson/i3/master/.vimrc)
+
+## ConEmu Colors
+![ConEmu](conemu_colors.png)
