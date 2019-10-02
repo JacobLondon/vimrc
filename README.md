@@ -5,6 +5,8 @@
 
 2. Copy the `.vimrc` file to your root directory, launch `vim` and run `:PluginInstall`
 
+3. For NeoVim, create `~/.config/nvim/init.vim` and paste the text from `init.vim`
+
 ## References
 * [VimAwesome](https://vimawesome.com/)
 * [space-vim-dark](https://github.com/liuchengxu/space-vim-dark)
