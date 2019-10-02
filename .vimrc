@@ -8,6 +8,8 @@ set background=dark
 set list
 set listchars=tab:>·,space:·
 
+command T NERDTreeToggle
+
 " NERDTree 
 autocmd vimenter * NERDTree
 let NERDTreeIgnore = ['__pycache__', '\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp', '*\.swp', '\.swo', '\.swn', '\.swh', '\.swm', '\.swl', '\.swk', '\.sw*$', '[a-zA-Z]*egg[a-zA-Z]*', '.DS_Store']
