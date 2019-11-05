@@ -18,7 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " NERDTree - File tree: https://github.com/scrooloose/nerdtree
-"Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 
 " ctrlp - Fuzzy File Finder: https://github.com/kien/ctrlp.vim
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -43,9 +43,9 @@ filetype plugin indent on
 " 
 
 " NERDTree 
-"autocmd vimenter * NERDTree
-"let NERDTreeIgnore = ['__pycache__', '\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp', '*\.swp', '\.swo', '\.swn', '\.swh', '\.swm', '\.swl', '\.swk', '\.sw*$', '[a-zA-Z]*egg[a-zA-Z]*', '.DS_Store']
-"command T NERDTreeToggle
+autocmd vimenter * NERDTree
+let NERDTreeIgnore = ['__pycache__', '\.pyc$', '\.o$', '\.so$', '\.a$', '\.swp', '*\.swp', '\.swo', '\.swn', '\.swh', '\.swm', '\.swl', '\.swk', '\.sw*$', '[a-zA-Z]*egg[a-zA-Z]*', '.DS_Store']
+command T NERDTreeToggle
 
 " lightline colorscheme
 let g:lightline = {
