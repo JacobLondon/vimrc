@@ -56,4 +56,5 @@ let g:lightline = {
     \ }
 
 " Theme
-colorscheme space-vim-dark
+"colorscheme space-vim-dark
+colorscheme adventurous
