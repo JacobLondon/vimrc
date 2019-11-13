@@ -32,6 +32,9 @@ Plugin 'itchyny/lightline.vim'
 " vim-gitgutter - Git additions, deletions, and changes: https://github.com/airblade/vim-gitgutter
 Plugin 'airblade/vim-gitgutter'
 
+" Vim colorschemes
+Plugin·'flazz/vim-colorschemes'
+
 " Space-Vim-Dark colorscheme: https://github.com/liuchengxu/space-vim-dark
 Plugin 'liuchengxu/space-vim-dark'
 
