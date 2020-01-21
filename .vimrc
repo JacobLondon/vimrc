@@ -1,6 +1,7 @@
+set number
+set autoindent
+set noexpandtab
 set tabstop=4
-set expandtab
-set nu
 set shiftwidth=4
 set smarttab
 syntax enable
@@ -32,6 +33,9 @@ Plugin 'itchyny/lightline.vim'
 " vim-gitgutter - Git additions, deletions, and changes: https://github.com/airblade/vim-gitgutter
 Plugin 'airblade/vim-gitgutter'
 
+" Vim Colorschemes
+Plugin 'flazz/vim-colorschemes'
+
 " Space-Vim-Dark colorscheme: https://github.com/liuchengxu/space-vim-dark
 Plugin 'liuchengxu/space-vim-dark'
 
@@ -53,4 +57,5 @@ let g:lightline = {
     \ }
 
 " Theme
-colorscheme space-vim-dark
+"colorscheme space-vim-dark
+colorscheme adventurous
