@@ -32,4 +32,7 @@ set shiftwidth=4
 set list
 set listchars=tab:>·,space:·
 command T NvimTreeToggle
+" keep visual mode after indent
+vnoremap > >gv
+vnoremap < <gv
 ]])
